@@ -1,0 +1,29 @@
+.header {
+  background-color: #f7f1e3;
+  height: 150px;
+  position: fixed;
+}
+
+
+.header-first {
+  height: 90px;
+}
+.title:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+
+.header-second {
+
+}
+.nav-left {
+  float: left;
+}
+.nav-right {
+  float: right;
+}
+.nav-right i{
+  font-size: 30px;
+  margin: 0 10px;
+}
