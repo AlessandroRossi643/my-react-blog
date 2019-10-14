@@ -1,0 +1,18 @@
+.slider {
+  position: relative;
+  top: 130px;
+  background-image: radial-gradient(circle, #070707, #161617, #202023, #2a2b2f, #35373c, #37393f, #383c43, #3a3e46, #333840, #2d323b, #262c35, #202630);
+}
+.slider-container{
+  border: 3px solid black;
+  padding: 0;
+}
+.slider-container > div {
+  height: 500px;
+}
+
+.article-container{
+  height: 300px;
+  background-image: radial-gradient(circle, #070707, #161617, #202023, #2a2b2f, #35373c, #37393f, #383c43, #3a3e46, #333840, #2d323b, #262c35, #202630);
+  padding: 20px 10px;
+}

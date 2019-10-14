@@ -1,7 +1,7 @@
 .header {
   background-color: #f7f1e3;
-  height: 150px;
   position: fixed;
+  z-index: 1000;
 }
 
 
@@ -11,12 +11,24 @@
 .title:hover{
   text-decoration: underline;
   text-decoration-color: white;
+  color: black;
 }
 
 
 .header-second {
-
+  height: 40px;
 }
+.menu-item{
+  margin: 0 30px;
+}
+.dropdown-menu {
+  margin: 0;
+  background-color: #f7f1e3;
+  left: auto;
+  z-index: 2;
+}
+
+
 .nav-left {
   float: left;
 }
@@ -26,4 +38,8 @@
 .nav-right i{
   font-size: 30px;
   margin: 0 10px;
+  color: black;
+}
+.nav-right i:hover, .menu-title:hover{
+  transform: scale3d(1.5, 1.5, 1.7);
 }
